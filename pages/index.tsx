@@ -10,8 +10,17 @@ export const Home = (): JSX.Element => (
     <main>
       <div className="container">
         <div>
-          <form>
-            <input placeholder="Insert name" />
+          <form style={{display: 'flex', flexDirection: 'column'}}>
+            <label htmlFor="name">Tell us about you</label>
+            <input id="name" placeholder="Insert name" />
+            <label htmlFor="name2">Tell us about you</label>
+            <input id="name2" placeholder="Insert name" />
+            <label htmlFor="name3">Tell us about you</label>
+            <input id="name3" placeholder="Insert name" />
+            <label htmlFor="name4">Tell us about you</label>
+            <input id="name4" placeholder="Insert name" />
+            <label htmlFor="name5">Tell us about you</label>
+            <input id="name5" placeholder="Insert name" />
           </form>
         </div>
         <div>
