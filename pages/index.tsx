@@ -21,6 +21,7 @@ export const Home = (): JSX.Element => (
             <input id="name4" placeholder="Insert name" />
             <label htmlFor="name5">Tell us about you</label>
             <input id="name5" placeholder="Insert name" />
+            <input type='submit' name="Push it"/>
           </form>
         </div>
         <div>
